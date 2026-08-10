@@ -1,0 +1,12 @@
+device_id = int(input("Device ID: "))
+firmware_version = input("Firmware Version: ")
+temperature = float(input("temperature: "))
+voltage = float(input("Supply Voltage: "))
+current  = float(input("Current: "))
+connection = input("Connection Type (connected/disconnected): ")
+power = (voltage * current)
+
+print("==== Device Information ====")
+print(f"Device ID: {type(device_id)}\nFirmware Version: {type(firmware_version)}\nTemperature: {type(temperature)} °C\nSupply Voltage: {type(voltage)} V\nCurrent: {type(current)} A\nConnection Type: {type(connection)}\nPower: {type(power)} W")
+print(f"Device ID: {device_id}\nFirmware Version: {firmware_version}\nTemperature: {temperature} °C\nSupply Voltage: {voltage} V\nCurrent: {current} A\nConnection Type: {connection}\nPower: {power} W")
+print("============================")
