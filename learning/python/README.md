@@ -15,12 +15,37 @@ This section documents my progression in Python, starting from programming funda
 - f-strings
 - Basic calculations
 
+### Day 04 — Flow Control, Loops, Functions and Device Value Converter
+- Boolean values and comparisons
+- `if / elif / else`
+- `and`, `or`, `not`
+- `while` loops
+- `for` loops
+- `range()`
+- `break`
+- `continue`
+- Functions
+- Parameters and arguments
+- `return`
+- User input with `input()`
+- `int()` and `float()` conversion
+- Nested conditions
+- Building a menu-driven CLI
+- Unit/device value conversion
+
+#### Day 04 Project — Device Value Converter
+Built a menu-driven Python CLI for converting:
+
+- Voltage: V ↔ mV
+- Current: A ↔ mA
+- Resistance: kΩ ↔ Ω
+- Power: kW ↔ W
+
+The project uses functions, conditional logic, loops, user input and calculations.
+
 ### Upcoming Topics
 
-- Conditional logic
-- Loops
-- Functions
-- Lists and dictionaries
+- Lists, tuples, sets and dictionaries
 - Exception handling
 - File handling
 - Modules and packages
