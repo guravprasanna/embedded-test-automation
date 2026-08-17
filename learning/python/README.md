@@ -15,37 +15,63 @@ This section documents my progression in Python, starting from programming funda
 - f-strings
 - Basic calculations
 
-### Day 04 — Flow Control, Loops, Functions and Device Value Converter
-- Boolean values and comparisons
-- `if / elif / else`
-- `and`, `or`, `not`
+### Day 02 — Conditional Logic
+- `if`
+- `elif`
+- `else`
+- Comparison operators
+- Logical operators
+- Nested conditions
+
+### Day 03 — Loops and Functions
 - `while` loops
 - `for` loops
 - `range()`
 - `break`
 - `continue`
 - Functions
-- Parameters and arguments
+- Function parameters
 - `return`
-- User input with `input()`
-- `int()` and `float()` conversion
-- Nested conditions
-- Building a menu-driven CLI
-- Unit/device value conversion
+- Reusable functions
 
-#### Day 04 Project — Device Value Converter
-Built a menu-driven Python CLI for converting:
+### Day 04 — Flow Control and Unit Converter
+- `if / elif / else`
+- `while` loops
+- `for` loops
+- Functions
+- Function parameters and return values
+- Nested menu logic
+- User input
+- Type conversion
+- Built a device value converter
+- Voltage conversion: V ↔ mV
+- Current conversion: A ↔ mA
+- Resistance conversion: Ω ↔ kΩ
+- Power conversion: W ↔ kW
 
-- Voltage: V ↔ mV
-- Current: A ↔ mA
-- Resistance: kΩ ↔ Ω
-- Power: kW ↔ W
-
-The project uses functions, conditional logic, loops, user input and calculations.
+### Day 05 — Data Structures and Device Data Modeling
+- Lists
+- List indexing
+- `.append()`
+- Tuples
+- Tuple indexing
+- Sets
+- `.add()`
+- `len()`
+- Dictionaries
+- Nested dictionaries
+- Lists of dictionaries
+- `for` loops with device data
+- Modeling sensor/device information
+- Extracting unique device IDs
+- Extracting unique device types
+- Finding highest temperature
+- Finding lowest voltage
+- Comparing sensor values
+- Built an IoT device data model
 
 ### Upcoming Topics
 
-- Lists, tuples, sets and dictionaries
 - Exception handling
 - File handling
 - Modules and packages
