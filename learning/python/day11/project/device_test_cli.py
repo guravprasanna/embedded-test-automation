@@ -1,4 +1,4 @@
-import device_test_cli
+import device_utils
 devices = []
 test_reports = []
 def add_device():
@@ -62,13 +62,13 @@ def run_test(devices):
             test_report["passed_test"] = device["passed_test"]
             test_report["device_id"] = device["device_id"]
             test_report["firmware_version"] = device["firmware_version"]
-            test_report["failed_test"] = device_test_cli.calculate_failed_test(device["total_test"], device["passed_test"])
-            test_report["power"] = device_test_cli.calculate_power(device["voltage"], device["current"])
-            test_report["pass_percentage"] = device_test_cli.calculate_pass_percentage((device["passed_test"], device["total_test"]))
-            test_report["voltage_status"] = device_test_cli.validate_voltage(device["voltage"])
-            test_report["current_status"] = device_test_cli.validate_current(device["current"])
-            test_report["temperature_status"] = device_test_cli.validate_temperature(device[" temperature"])
-            test_report["overall_status"] = device_test_cli.determine_overall_status((test_report["voltage_status"], test_report["current_status"], test_report["temperature_status"], test_report["power"], test_report["pass_percentage"]))
+            test_report["failed_test"] = device_utils.calculate_failed_test(device["total_test"], device["passed_test"])
+            test_report["power"] = device_utils.calculate_power(device["voltage"], device["current"])
+            test_report["pass_percentage"] = device_utils.calculate_pass_percentage(device["passed_test"], device["total_test"])
+            test_report["voltage_status"] = device_utils.validate_voltage(device["voltage"])
+            test_report["current_status"] = device_utils.validate_current(device["current"])
+            test_report["temperature_status"] = device_utils.validate_temperature(device["temperature"])
+            test_report["overall_status"] = device_utils.determine_overall_status(test_report["voltage_status"], test_report["current_status"], test_report["temperature_status"], test_report["power"], test_report["pass_percentage"])
             print("Device was Found and Test was performed.")
             return test_report
     print("Device not Found.")
