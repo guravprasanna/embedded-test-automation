@@ -1,0 +1,32 @@
+[
+    {
+        "device_id": "BT01",
+        "device_type": "Four Point Node",
+        "firmware_version": "v3.0",
+        "voltage": 230.0,
+        "current": 10.0,
+        "total_test": 100,
+        "passed_test": 97,
+        "temperature": 38.0
+    },
+    {
+        "device_id": "BT002",
+        "device_type": "Three Point Node",
+        "firmware_version": "v3.1",
+        "voltage": 250.0,
+        "current": 20.0,
+        "total_test": 100,
+        "passed_test": 98,
+        "temperature": 46.0
+    },
+    {
+        "device_id": "BT003",
+        "device_type": "Two Point",
+        "firmware_version": "v3.2",
+        "voltage": 260.0,
+        "current": 25.0,
+        "total_test": 100,
+        "passed_test": 99,
+        "temperature": 40.0
+    }
+]
