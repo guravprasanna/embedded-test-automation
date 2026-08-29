@@ -1,0 +1,12 @@
+[
+    {
+        "device_id": "BT001",
+        "device_type": "Four Point Node",
+        "firmware_version": "v3.1",
+        "voltage": 230.0,
+        "current": 10.0,
+        "total_test": 10,
+        "passed_test": 9,
+        "temperature": 40.0
+    }
+]

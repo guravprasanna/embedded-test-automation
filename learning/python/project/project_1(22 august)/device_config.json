@@ -1,0 +1,7 @@
+{
+    "limits": {"minimum_voltage": 3,
+    "maximum_voltage": 5.5,
+    "maximum_current": 10,
+    "minimum_temperature": 0,
+    "maximum_temperature": 70}
+}
